@@ -1,6 +1,6 @@
 {
   "name": "@keepflash/keepflash_api_node",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Client and Node.js library for using Keepflash Api",
   "repository": {
     "type": "git",
