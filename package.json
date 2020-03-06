@@ -1,21 +1,32 @@
 {
   "name": "@keepflash/keepflash_api_node",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Client and Node.js library for using Keepflash Api",
+  "author": "Lenny Zeitoun <dev@keepflash.com> (https://web.keepflash.com/)",
+  "homepage": "https://github.com/ZeitounCorp/keepflash_node_api",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZeitounCorp/keepflash_node_api.git"
   },
-  "main": "keepflash.js",
+  "bugs:": "https://github.com/ZeitounCorp/keepflash_node_api/issues",
+  "main": "lib/keepflash.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "sh ./publish.sh"
   },
   "keywords": [
     "API",
-    "NODE.JS",
-    "KEEPFLASH"
+    "Node.js",
+    "Keepflash"
   ],
-  "author": "Lenny Zeitoun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
 }
